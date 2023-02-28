@@ -1,0 +1,12 @@
+.App {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App h1 {
+  margin-bottom: 1.8rem;
+}

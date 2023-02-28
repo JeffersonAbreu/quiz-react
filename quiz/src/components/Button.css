@@ -1,0 +1,31 @@
+button {
+    margin: 1rem 1rem;
+  
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: .8rem 1.2rem;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgba(132, 53, 222, 1) 0%, rgba(184, 84, 232, 1) 100%);
+    border-radius: 3rem;
+    border: none;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.234);
+    color: #F2F2F2;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.58);
+    opacity: 0.9;
+    /* flex: 1; */
+  }
+  
+  button:hover {
+    transition: .4s;
+    opacity: 1;
+    background: linear-gradient(
+      90deg,
+      rgba(184, 84, 232, 1) 0%,
+      rgba(132, 53, 222, 1) 100%
+      );
+  }
+  
+  #continue {
+    border: 1px solid #fff;
+  }
